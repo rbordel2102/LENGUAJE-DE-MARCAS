@@ -29,7 +29,7 @@
     <titulo>XML Developer's Guide</titulo>
     <autor>Garghentini, Davide</autor>
     <editor>Editor de Garghentini</editor> 
-    <isbn>bk101</isbn> 
+    <isbn>978-84-9849-703-8</isbn> 
     <precio>4.95</precio>
     <numPaginas>150</numPaginas> 
     </libro>
@@ -37,7 +37,7 @@
     <titulo>Midnight Rain</titulo>
     <autor>Garcia, Debra</autor>
     <editor>Editor de Garcia</editor>
-    <isbn>bk102</isbn> 
+    <isbn>978-84-9849-703-8</isbn> 
     <precio>5.95</precio>
     <numPaginas>150</numPaginas> 
     </libro>
