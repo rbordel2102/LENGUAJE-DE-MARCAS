@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
     <html>
@@ -9,21 +10,24 @@
             <th>Titulo</th>
             <th>Autor</th>
             <th>Precio</th>
+            <th>Num. Páginas</th>
         </tr>
         <xsl:for-each select="libreria/libro">
         <tr>
-            <xsl:choose>
-                <xsl:when test="precio > 25">
-                    <xsl:attribute name="bgcolor">#FF0000</xsl:attribute> <!-- Rojo para precios mayores a 25€ -->
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="bgcolor">#00FF00</xsl:attribute> <!-- Verde para precios menores o iguales a 25€ -->
-                </xsl:otherwise>
-            </xsl:choose>
             <td><xsl:value-of select="isbn"/></td>
             <td><xsl:value-of select="titulo"/></td>
             <td><xsl:value-of select="autor"/></td>
             <td><xsl:value-of select="precio"/></td>
+            <td>
+              <xsl:choose>
+                <xsl:when test="numPaginas > 150">
+                 <span style="color:red;"><xsl:value-of select="numPaginas"/></span>
+                </xsl:when>
+                <xsl:otherwise>
+                 <xsl:value-of select="numPaginas"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </td>
         </tr>
         </xsl:for-each>
         </table>
