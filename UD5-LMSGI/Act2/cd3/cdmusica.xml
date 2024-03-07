@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_p3.xsl"?>
+<catalogo>
+
+    <cd>
+        <titulo>Empire Burlesque</titulo>
+        <artista>Bob Dylan</artista>
+        <canciones>
+            <cancion>
+                <title>Brownsville Girl</title>
+                <duration>3:28</duration>
+            </cancion>
+            <cancion>
+                <title>Simple Twist of Fate</title>
+                <duration>4:02</duration>
+            </cancion>
+            <cancion>
+                <title>Black or White</title>
+                <duration>4:12</duration>
+            </cancion>
+            <cancion>
+                <title>Smooth Criminal</title>
+                <duration>4:12</duration>
+            </cancion>
+        </canciones>
+        <discografica>Columbia</discografica>
+        <anio>1985</anio>
+    </cd>
+
+    <cd>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <canciones>
+            <cancion>
+                <title>Billie Jean</title>
+                <duration>4:54</duration>
+            </cancion>
+            <cancion>
+                <title>Beat It</title>
+                <duration>4:11</duration>
+            </cancion>
+            <cancion>
+                <title>Off the Wall</title>
+                <duration>4:05</duration>
+            </cancion>
+            <cancion>
+                <title>Don't Stop 'Til You Get Enough</title>
+                <duration>3:58</duration>
+            </cancion>
+        </canciones>
+        <discografica>Epic Records</discografica>
+        <anio>1982</anio>
+    </cd>
+    
+    <cd>
+        <titulo>El Último Tour Del Mundo</titulo>
+        <artista>Bad Bunny</artista>
+        <canciones>
+            <cancion>
+                <title>Callaíta</title>
+                <duration>3:32</duration>
+            </cancion>
+            <cancion>
+                <title>Mia</title>
+                <duration>2:55</duration>
+            </cancion>
+            <cancion>
+                <title>Vete</title>
+                <duration>3:17</duration>
+            </cancion>
+            <cancion>
+                <title>Dakiti</title>
+                <duration>2:58</duration>
+            </cancion>
+            <cancion>
+                <title>Yo Perré</title>
+                <duration>3:35</duration>
+            </cancion>
+        </canciones>
+        <discografica>Rimas Entertainment</discografica>
+        <anio>2019</anio>
+    </cd>
+
+    <cd>
+        <titulo>Exodus</titulo>
+        <artista>Bob Marley</artista>
+        <canciones>
+            <cancion>
+                <title>One Love</title>
+                <duration>3:28</duration>
+            </cancion>
+            <cancion>
+                <title>Redemption Song</title>
+                <duration>4:20</duration>
+            </cancion>
+            <cancion>
+                <title>Could You Be Loved</title>
+                <duration>4:03</duration>
+            </cancion>
+            <cancion>
+                <title>Three Little Birds</title>
+                <duration>3:45</duration>
+            </cancion>
+            <cancion>
+                <title>Get Up, Stand Up</title>
+                <duration>3:45</duration>
+            </cancion>
+        </canciones>
+        <discografica>Island Records</discografica>
+        <anio>1977</anio>
+    </cd>
+
+    <cd>
+        <titulo>Evolve</titulo>
+        <artista>Imagine Dragons</artista>
+        <canciones>
+            <cancion>
+                <title>Believer</title>
+                <duration>3:54</duration>
+            </cancion>
+            <cancion>
+                <title>Whatever It Takes</title>
+                <duration>3:30</duration>
+            </cancion>
+            <cancion>
+                <title>Thunder</title>
+                <duration>4:00</duration>
+            </cancion>
+            <cancion>
+                <title>Rocket Man</title>
+                <duration>3:33</duration>
+            </cancion>
+            <cancion>
+                <title>Demons</title>
+                <duration>3:34</duration>
+            </cancion>
+        </canciones>
+        <discografica>Kidinakorner</discografica>
+        <anio>2017</anio>
+    </cd>
+
+    <cd>
+        <titulo>El Barrio</titulo>
+        <artista>El Barrio</artista>
+        <canciones>
+            <cancion>
+                <title>Vida</title>
+                <duration>3:20</duration>
+            </cancion>
+            <cancion>
+                <title>Dime</title>
+                <duration>3:10</duration>
+            </cancion>
+            <cancion>
+                <title>Lo Que Quiero</title>
+                <duration>3:05</duration>
+            </cancion>
+            <cancion>
+                <title>Amor</title>
+                <duration>3:45</duration>
+            </cancion>
+            <cancion>
+                <title>Si No Te Quisiera</title>
+                <duration>3:30</duration>
+            </cancion>
+        </canciones>
+        <discografica>Sony Music</discografica>
+        <anio>2022</anio>
+    </cd>
+    
+    <cd>
+        <titulo>Antes de Ameri</titulo>
+        <artista>Duki</artista>
+        <canciones>
+            <cancion>
+                <title>Loca</title>
+                <duration>3:10</duration>
+            </cancion>
+            <cancion>
+                <title>Goteo</title>
+                <duration>3:30</duration>
+            </cancion>
+            <cancion>
+                <title>Como Si No Importara</title>
+                <duration>3:45</duration>
+            </cancion>
+            <cancion>
+                <title>Party en el Barrio</title>
+                <duration>3:25</duration>
+            </cancion>
+            <cancion>
+                <title>Duki: Bzrp Music Sessions, Vol. 50</title>
+                <duration>3:55</duration>
+            </cancion>
+        </canciones>
+        <discografica>Dale Play, SSJ</discografica>
+        <anio>2023</anio>
+    </cd>
+
+    <cd>
+        <titulo>Fitografía</titulo>
+        <artista>Fito y Fitipaldis</artista>
+        <canciones>
+            <cancion>
+                <title>Hola Amigo</title>
+                <duration>3:45</duration>
+            </cancion>
+            <cancion>
+                <title>La Bala</title>
+                <duration>4:00</duration>
+            </cancion>
+            <cancion>
+                <title>Si Te Vas</title>
+                <duration>4:10</duration>
+            </cancion>
+            <cancion>
+                <title>Ella No</title>
+                <duration>3:30</duration>
+            </cancion>
+            <cancion>
+                <title>Peligro</title>
+                <duration>3:25</duration>
+            </cancion>
+        </canciones>
+        <discografica>IMPORTS</discografica>
+        <anio>2017</anio>
+    </cd>
+    
+    <cd>
+        <titulo>Music to Be Murdered By</titulo>
+        <artista>Eminem</artista>
+        <canciones>
+            <cancion>
+                <title>Not Afraid</title>
+                <duration>3:49</duration>
+            </cancion>
+            <cancion>
+                <title>Lucky You</title>
+                <duration>3:58</duration>
+            </cancion>
+            <cancion>
+                <title>Rap God</title>
+                <duration>4:47</duration>
+            </cancion>
+            <cancion>
+                <title>Venom</title>
+                <duration>4:21</duration>
+            </cancion>
+            <cancion>
+                <title>Godzilla</title>
+                <duration>4:26</duration>
+            </cancion>
+        </canciones>
+        <discografica>Aftermath Entertainment</discografica>
+        <anio>2020</anio>
+    </cd>
+    
+    <cd>
+        <titulo>Perdida en el Espejo</titulo>
+        <artista>Marea</artista>
+        <canciones>
+            <cancion>
+                <title>La Chica del Automóvil</title>
+                <duration>3:20</duration>
+            </cancion>
+            <cancion>
+                <title>Perdida en el Espejo</title>
+                <duration>3:50</duration>
+            </cancion>
+            <cancion>
+                <title>Eres Tú</title>
+                <duration>3:45</duration>
+            </cancion>
+            <cancion>
+                <title>Hasta que la Vida</title>
+                <duration>4:00</duration>
+            </cancion>
+            <cancion>
+                <title>No Me Quedes Tú</title>
+                <duration>3:30</duration>
+            </cancion>
+        </canciones>
+        <discografica>Warner Music Spain</discografica>
+        <anio>2019</anio>
+    </cd>
+    
+</catalogo>
