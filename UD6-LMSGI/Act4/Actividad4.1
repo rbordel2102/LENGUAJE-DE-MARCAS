@@ -1,0 +1,44 @@
+xquery version "1.0";
+
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare option output:method "html";
+declare option output:indent "yes";
+
+<html>
+ <head>
+    <title>Todos los libros con autores</title>
+ </head>
+ <body>
+    <table border="1">
+      <tr>
+        <th>Código Libro</th>
+        <th>Título</th>
+        <th>Editorial</th>
+        <th>Edición</th>
+        <th>ISBN</th>
+        <th>Número Páginas</th>
+        <th>Autor</th>
+      </tr>
+      {
+        for $libro in doc("BD_Libros.xml")/Libros/libro
+        let $autores := $libro/Autores/autor
+        return
+          <tr>
+            <td>{data($libro/Cod_Libro)}</td>
+            <td>{data($libro/Titulo)}</td>
+            <td>{data($libro/Editorial)}</td>
+            <td>{data($libro/Edicion)}</td>
+            <td>{data($libro/ISBN)}</td>
+            <td>{data($libro/NumPaginas)}</td>
+            <td>
+              {
+                for $autor in $autores
+                return
+                 concat(data($autor/Nombre), ' ', data($autor/Apellidos), ' ', data($autor/FechaNacimiento), '')
+              }
+            </td>
+          </tr>
+      }
+    </table>
+ </body>
+</html>

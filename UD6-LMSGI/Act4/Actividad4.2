@@ -1,0 +1,41 @@
+insert 
+
+<html>
+ <head>
+    <title>Libros con más de 150 páginas</title>
+ </head>
+ <body>
+    <table border="1">
+      <tr>
+        <th>Código Libro</th>
+        <th>Título</th>
+        <th>Editorial</th>
+        <th>Edición</th>
+        <th>ISBN</th>
+        <th>Número Páginas</th>
+        <th>Autor</th>
+      </tr>
+      {
+        for $libro in doc("BD_Libros.xml")/Libros/libro
+        where $libro/NumPaginas > 500
+        let $autores := $libro/Autores/autor
+        return
+          <tr>
+            <td>{data($libro/Cod_Libro)}</td>
+            <td>{data($libro/Titulo)}</td>
+            <td>{data($libro/Editorial)}</td>
+            <td>{data($libro/Edicion)}</td>
+            <td>{data($libro/ISBN)}</td>
+            <td>{data($libro/NumPaginas)}</td>
+            <td>
+              {
+                for $autor in $autores
+                return
+                 concat(data($autor/Nombre), ' ', data($autor/Apellidos), ' ', data($autor/FechaNacimiento), '')
+              }
+            </td>
+          </tr>
+      }
+    </table>
+ </body>
+</html>
